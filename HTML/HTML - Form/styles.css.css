@@ -1,0 +1,154 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/figura-triangular-geometrica-legal-em-uma-luz-de-laser-neon-otima-para-fundos-e-papeis-de-parede_181624-9331.jpg?w=2000);
+
+}
+fieldset{
+    color:#ffe600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-color: darkblue;
+    border-radius: 20px;
+    border-style:dashed;
+    border: 5px yellow solid;
+    
+
+}
+
+legend{
+    font-size: 30px;
+}
+
+h1{
+    color: #FFFFFF;
+    background-image: url(https://img.freepik.com/fotos-gratis/figura-triangular-geometrica-legal-em-uma-luz-de-laser-neon-otima-para-fundos-e-papeis-de-parede_181624-9331.jpg?w=2000);
+    font-size: 40px;
+    width: 470px;
+    margin-left: 535px;
+    text-align:center;
+    border: 4px #ffe600 solid;
+}
+
+form{
+    grid-template-areas:unset;
+    
+}
+
+*{
+   font-family: 'Nunito';
+}
+
+#area
+{
+  position:relative;
+  left: 34%;
+  top:30%;
+  width:520px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+
+#register{
+    margin-bottom: 30px;
+}
+
+#input-nome{
+    margin-bottom: 20px;
+}
+
+#input-email{
+    word-wrap: break-word;
+    margin-bottom:20px;
+}
+
+.input-age{
+    margin-bottom: 20px;
+}
+
+#input-birth-day{
+    margin-bottom: 20px;
+}
+
+#label-to-account{
+    margin-bottom: 20px;
+
+}
+
+.input-in-box{
+    display: inline;
+    width: 10px;
+    margin-bottom:  10px ;
+}
+
+#input-eye-color{
+    margin-bottom: 20px
+}
+
+#textarea{
+    margin-bottom: 20px;
+}
+
+
+
+.input-in-boll{
+
+}
+
+#input-tell{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+#input-file{
+margin-bottom: 20;
+
+}
+
+#password{
+    margin-bottom:20px;
+}
+
+.input{
+    border-color: #8cff00;
+}
+
+
+.buttons{
+    background: #f2ff00;
+}
+
+.buttons:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #f2ff00;
+    box-shadow: inset 0 0 0 3px #f2ff00;
+}
+
+.buttons{
+    border: none;
+    color:#FFFFFF;
+    padding: 20px;
+    margin: 10px;
+    font-size: 24px;
+    line-height: 24px;
+    border-radius: 10px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+    size: 15px;
+    }
+
+    .buttons{
+    color: black;
+}
+
+#mostrar-senha{
+    font-size: 8px;
+}
+
+#telefone{
+    word-break: normal;
+}

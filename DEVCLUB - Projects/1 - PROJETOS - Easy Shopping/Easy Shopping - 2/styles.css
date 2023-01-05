@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+.all-code {
+    width: 100vw;
+    height: 100vh;
+}
+
+#textos {
+    display: inline-block;
+    width: 67vw;
+    height: 100vh;
+}
+
+
+
+button {
+    background: #9499EA;
+    border-radius: 52px;
+    width: 269px;
+    height: 62px;
+    border: none;
+    color: white;
+    font-size: 24px;
+    box-shadow: 2px 2px 3px #8589d1;
+    cursor: pointer;
+    position: relative;
+    top: 393px;
+    left: 259px;
+}
+
+button:hover{
+    background-color:#8589d1;
+}
+
+
+h1 {
+    line-height: 80px;
+    width: 368px;
+    height: 160x;
+    color: #5D5D7D;
+    position: relative;
+    top: 332px;
+    left: 264px;
+    font-size: 70px
+}
+
+
+p {
+    font-size: 25px;
+    line-height: 48px;
+    color: #5D5D7D;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+    width: 540px;
+    height: 144px;
+    position: relative;
+    bottom: -339px;
+    left: 263px;
+
+}
+
+
+
+
+
+
+.links-e-img {
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    height: 100vh;
+    width: 33vw;
+    position: absolute;
+
+}
+
+img {
+    position: relative;
+    top: 90px;
+    right: 189px;
+}
+
+a {
+    font-size: 20px;
+    line-height: 41px;
+    margin: 41px;
+    color: #5D5D7D;
+    text-align: center;
+
+}
+
+header {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.h1-p {
+    position: relative;
+    top: -13px;
+
+}

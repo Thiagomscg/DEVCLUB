@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: #7350942f;
+}
+
+form{
+    border: 1px solid #9e7ac0e6;
+}
+h1{
+    font-weight: 600;
+    color: #ad84d3e6;
+    font-size: 35px;
+    margin: 15px 0px 10px 20px;
+}
+
+h2{
+    margin: 10px 0px 10px 25px;
+    color: #ad84d3c1;
+    font-weight: 400;
+}
+
+#nome{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+}
+
+#idade{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+}
+
+#sm1{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+}
+
+#sm2{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+}
+
+#sm3{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+}
+ #sm4{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+ }
+
+ #sim{
+     color: rgb(0, 0, 0);
+ }
+
+ #sm5{
+    display: block;
+    margin: 8px 0px 8px 15px;
+    color:rgb(159, 16, 159);
+    font-weight: 400;
+ }
+
+ input:not(#sim , #nao){
+     border-radius: 5px;
+     border: 0px solid;
+     width: 170px;
+     height: 30px;
+ }

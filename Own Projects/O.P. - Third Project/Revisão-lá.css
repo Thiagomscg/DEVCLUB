@@ -1,0 +1,43 @@
+*{
+    border: 0cm;
+    margin: 0cm;
+    text-decoration: none;
+    font-family: 'Trispace', sans-serif;
+}
+
+header{
+    display: block;
+    padding-bottom: 30px;
+    padding-top: 1cm;
+    background-color: rgba(128, 201, 160, 0.811);
+}
+
+h1{
+    display: inline;
+    margin-left: 50px;
+}
+
+.LinksHeader{
+    display: inline;
+    margin-left: 1cm;
+    color: rgb(24, 164, 164);
+}
+
+#daPonta{
+    margin-left: 500px;
+}
+
+.LinksMain{
+    max-width: 5cm;
+    max-height: 4cm;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+main{
+    margin: 0cm 5cm;
+    background-color: rgba(126, 227, 194, 0.5);
+}
+
+body{
+background-color: rgba(235, 156, 53, 0.514);}

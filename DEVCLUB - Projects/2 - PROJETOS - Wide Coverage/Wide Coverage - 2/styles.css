@@ -1,0 +1,147 @@
+* {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    margin: 32px 0px 0px 42px;
+}
+
+.link-header {
+    margin: 0px 0px 0px 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+}
+
+#button {
+    margin: 0px 0px 0px 32px;
+    background: #6FBF44;
+    border: 0px solid #4CB538;
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8dbe97;
+    color: #28415b;
+    display: inline;
+}
+
+
+
+
+
+
+img {
+    display: inline-block;
+    width: 595px;
+    height: 500px;
+    margin: 163px 84px 0px 121px;
+}
+
+
+
+
+
+main {
+    display: inline-block;
+}
+
+
+#text-part {
+    display: inline-block;
+    width: 582px;
+    height: 164px;
+    position: relative;
+    top: -27px
+}
+
+
+h1 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    margin-bottom: 47px;
+}
+
+p {
+    display: inline-block;
+    width: 493px;
+    height: 99px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+#link-main {
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+}
+
+#button-2 {
+    display: none;
+}
+
+
+
+@media (max-width: 391px) {
+    * {
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        margin: 0px;
+        margin-right: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+    }
+
+    wrapper{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    header {
+        display: none;
+    }
+
+    #button-2 {
+        display: block;
+        background: #6FBF44;
+        border: 1px solid #4CB538;
+        box-sizing: border-box;
+        border-radius: 6px;
+        width: 91px;
+        height: 31px;
+        margin: 17px 15px 76px 0px;
+    }
+
+
+
+}

@@ -1,0 +1,166 @@
+header {
+    display: none;
+}
+
+#paragraph {
+    display: none;
+}
+
+wrapper {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'montserrat', sans-serif;
+    border: none;
+    text-decoration: none;
+}
+
+img {
+    margin: 149px 18px 24px 18px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 61px;
+    color: #515151;
+    margin: 0px 63px 7px 64px;
+    text-align: cnter;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    margin: 0px 79px 0px 79px;
+    color: #515151;
+}
+
+
+#button {
+    background: #ADFF00;
+    border-radius: 40px;
+    width: 239px;
+    height: 64px;
+    padding: auto;
+    margin: 17px 75px 0px 76px;
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+#button:hover{
+    background: #b8fa2b;
+}
+
+#button:active {
+    background: #b8ff20;
+    width: 240px;
+    height: 65px;
+    margin: 18px 76px 134px 77px;
+}
+
+@media screen and (min-width:1440px) {
+
+    .right {
+        display: inline-block;
+        width: 50%;
+    }
+
+    .left {
+        display: inline-block;
+    }
+
+    header {
+        display: block;
+        margin-top: 38px;
+        margin-left: 76px;
+    }
+
+    p {
+        display: in;
+    }
+
+    a {
+        margin-right: 23px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: #989D9C;
+    }
+
+    a:hover{
+        color: #808282;
+    }
+
+    #button1 {
+        background: #665AE1;
+        border-radius: 20.5px;
+        width: 130px;
+        height: 41px;
+
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    #button1:hover{
+        background: #7569f8;
+    }
+
+    #div {
+        display: inline-block;
+        position: relative;
+        bottom: 197px;
+    }
+
+    
+img {
+    margin: 138px 86px 183px 125px;
+    width: 528px;
+    height: 460px;
+    display: inline-block;
+}
+
+#textpart {
+    display: inline-block;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+#paragraph {
+    display: inline-block;
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    margin: 32px 0px 65px 79px;
+    color: #848484;
+}
+
+}

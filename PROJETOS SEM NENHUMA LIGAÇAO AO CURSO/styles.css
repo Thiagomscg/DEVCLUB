@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-image: url(assets/BR-pt-20220509-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+}
+header{
+    margin-left: 70px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.header{
+    display: inline-block;
+    height: 120px;
+}
+
+#button1{
+    height: 38px;
+    width: 110px;
+    border-radius: 4px;
+    border: 0px solid ;
+    position: absolute;
+    margin: 35px 0px 0px 1040px;
+    color: white;
+    background-color: #dc0d0d;
+}
+
+#wrapper{
+    text-align: center;
+}
+
+#buttoninput{
+    width: 10px;
+    height: 10px;
+    border-radius: 0px;
+    border: 1px solid black;
+}
